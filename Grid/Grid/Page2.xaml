@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid.Page2"
+             Background="#354242">
+    <ContentPage.Content>
+        <Grid Padding="40" RowSpacing="10" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Entry Grid.ColumnSpan="3" Grid.Row="1" TextColor="White" FontSize="50" MaxLength="12" BackgroundColor="#354242" x:Name="txt_bt"/>
+            <Button Text="1" Grid.Row="3" Grid.Column="0" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked" />
+            <Button Text="2" Grid.Row="3" Grid.Column="1" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_1"/>
+            <Button Text="3" Grid.Row="3" Grid.Column="2" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_2"/>
+            <Button Text="4" Grid.Row="4" Grid.Column="0" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_3"/>
+            <Button Text="5" Grid.Row="4" Grid.Column="1" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_4" />
+            <Button Text="6" Grid.Row="4" Grid.Column="2" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_5"/>
+            <Button Text="7" Grid.Row="5" Grid.Column="0" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_6" />
+            <Button Text="8" Grid.Row="5" Grid.Column="1" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_7"/>
+            <Button Text="9" Grid.Row="5" Grid.Column="2" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_8"/>
+            <Button Text="0" Grid.Row="6" Grid.Column="1" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" CornerRadius="30" Clicked="Button_Clicked_9"/>
+            <Button Text="Dail" Grid.Row="7" Grid.ColumnSpan="3" BackgroundColor="#96ca2d" CornerRadius="30" FontSize="30" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
